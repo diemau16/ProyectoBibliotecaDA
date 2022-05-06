@@ -29,5 +29,10 @@ namespace ProyectoBibliotecaDA.Controllers
         {
             return "No sea pendejo al actualizar";
         }
+        [HttpDelete]
+        public string BorrarLibro()
+        {
+            return "No sea pendeho al borrar";
+        }
     }
 }
